@@ -1,0 +1,34 @@
+{
+    "title": "Friday Night Funkin': VS Big Sis",
+    "description": "V-Slice port of an old mod from the 2021 modding days, VS Big Sis!",
+    "contributors": [
+        {
+            "name": "Zyflx",
+            "role": "Porter",
+            "url": "https://x.com/Zyflx"
+        },
+        {
+            "name": "HOTMINUTE",
+            "role": "Animation + Programming",
+            "url": "https://www.youtube.com/@HOTMINUTEStudios"
+        },
+        {
+            "name": "Epic Edster",
+            "role": "Art",
+            "url": "https://x.com/Epic_Edster"
+        },
+        {
+            "name": "SmeckoGeck46",
+            "role": "Music",
+            "url": "https://gamebanana.com/members/1925359"
+        },
+        {
+            "name": "Jasmine Espinal",
+            "role": "Voice Actor",
+            "url": ""
+        }
+    ],
+    "api_version": "0.7.3",
+    "mod_version": "0.1.0",
+    "license": "Apache 2.0"
+}

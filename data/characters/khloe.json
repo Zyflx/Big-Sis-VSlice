@@ -1,0 +1,74 @@
+{
+	"singTime": 4,
+	"version": "1.0.0",
+	"assetPath": "characters/Big_Sis_Assest",
+	"generatedBy": "Nova Character Editor REFRESHED v0.1.2",
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "big sis idle instance 1",
+			"frameIndices": [],
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "big sis LEFT instance 1",
+			"frameIndices": [],
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "big sis DOWN instance 1",
+			"frameIndices": [],
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "big sis UP instance 1",
+			"frameIndices": [],
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "big sis RIGHT instance 1",
+			"frameIndices": [],
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		}
+	],
+	"name": "Big Sis (Khloe)"
+}

@@ -1,0 +1,36 @@
+{
+	"timeFormat": "ms",
+	"artist": "SmeckoGeck46",
+	"charter": "???",
+	"offsets": {
+		"altInstrumentals": {},
+		"instrumental": 0,
+		"vocals": {}
+	},
+	"playData": {
+		"stage": "mainStage",
+		"songVariations": [],
+		"noteStyle": "funkin",
+		"difficulties": [
+			"easy",
+			"normal",
+			"hard"
+		],
+		"characters": {
+			"girlfriend": "gf",
+			"opponent": "khloe",
+			"player": "bf"
+		}
+	},
+	"songName": "Refamiliarize",
+	"timeChanges": [
+		{
+			"d": 4,
+			"n": 4,
+			"t": 0,
+			"bpm": 108
+		}
+	],
+	"generatedBy": "Moonchart 0.4.0",
+	"version": "2.2.2"
+}
