@@ -1,74 +1,81 @@
 {
+	"renderType": "sparrow",
+	"version": "1.0.1",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 2,
+	"scale": 1,
+	"name": "Big Sis (Khloe)",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"isPixel": false,
 	"singTime": 4,
-	"version": "1.0.0",
-	"assetPath": "characters/Big_Sis_Assest",
-	"generatedBy": "Nova Character Editor REFRESHED v0.1.2",
+	"startingAnimation": "idle",
+	"healthIcon": {
+		"id": "khloe",
+		"isPixel": false
+	},
+	"assetPath": "characters/Khloe_Assets",
 	"animations": [
 		{
-			"flipY": false,
+			"frameIndices": [],
+			"prefix": "big sis idle",
 			"offsets": [
 				0,
 				0
 			],
 			"frameRate": 24,
-			"prefix": "big sis idle instance 1",
-			"frameIndices": [],
-			"flipX": false,
-			"looped": false,
-			"name": "idle"
+			"name": "idle",
+			"looped": false
 		},
 		{
-			"flipY": false,
+			"frameIndices": [],
+			"prefix": "big sis LEFT",
 			"offsets": [
-				0,
-				0
+				45,
+				-5
 			],
 			"frameRate": 24,
-			"prefix": "big sis LEFT instance 1",
-			"frameIndices": [],
-			"flipX": false,
-			"looped": false,
-			"name": "singLEFT"
+			"name": "singLEFT",
+			"looped": false
 		},
 		{
-			"flipY": false,
+			"frameIndices": [],
+			"prefix": "big sis DOWN",
 			"offsets": [
-				0,
-				0
+				65,
+				-82
 			],
 			"frameRate": 24,
-			"prefix": "big sis DOWN instance 1",
-			"frameIndices": [],
-			"flipX": false,
-			"looped": false,
-			"name": "singDOWN"
+			"name": "singDOWN",
+			"looped": false
 		},
 		{
-			"flipY": false,
+			"frameIndices": [],
+			"prefix": "big sis UP",
 			"offsets": [
-				0,
-				0
+				14,
+				33
 			],
 			"frameRate": 24,
-			"prefix": "big sis UP instance 1",
-			"frameIndices": [],
-			"flipX": false,
-			"looped": false,
-			"name": "singUP"
+			"name": "singUP",
+			"looped": false
 		},
 		{
-			"flipY": false,
+			"frameIndices": [],
+			"prefix": "big sis RIGHT",
 			"offsets": [
-				0,
+				-30,
 				0
 			],
 			"frameRate": 24,
-			"prefix": "big sis RIGHT instance 1",
-			"frameIndices": [],
-			"flipX": false,
-			"looped": false,
-			"name": "singRIGHT"
+			"name": "singRIGHT",
+			"looped": false
 		}
-	],
-	"name": "Big Sis (Khloe)"
+	]
 }
