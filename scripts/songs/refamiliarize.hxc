@@ -1,0 +1,25 @@
+import funkin.play.song.Song;
+import funkin.play.PlayStatePlaylist;
+import funkin.play.cutscene.CutsceneType;
+import funkin.play.cutscene.VideoCutscene;
+
+class Refamiliarize extends Song {
+    var watchedCutscene: Bool = false;
+
+    public function new():Void {
+        super('refamiliarize');
+    }
+
+    override function onCreate(e):Void {
+        super.onCreate(e);
+        watchedCutscene = false;
+    }
+
+    override function onCountdownStart(e):Void {
+        super.onCountdownStart(e);
+        if(watchedCutscene || !PlayStatePlaylist.isStoryMode) return;
+        e.cancel();
+        watchedCutscene = true;
+        VideoCutscene.play(Paths.videos('refamiliarizeCutscene'), CutsceneType.STARTING);
+    }
+}
