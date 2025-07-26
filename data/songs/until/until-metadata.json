@@ -21,16 +21,16 @@
 			"player": "bf"
 		},
 		"ratings": {
-			"hard": 3
+			"hard": 4
 		}
 	},
-	"songName": "Refamiliarize",
+	"songName": "Until",
 	"timeChanges": [
 		{
 			"d": 4,
 			"n": 4,
 			"t": 0,
-			"bpm": 108
+			"bpm": 135
 		}
 	],
 	"generatedBy": "Moonchart 0.4.0",
