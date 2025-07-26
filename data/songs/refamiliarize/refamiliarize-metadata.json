@@ -8,6 +8,7 @@
 		"vocals": {}
 	},
 	"playData": {
+		"album": "bigSis",
 		"stage": "sidewalk",
 		"songVariations": [],
 		"noteStyle": "funkin",
@@ -20,6 +21,11 @@
 			"girlfriend": "gf",
 			"opponent": "khloe",
 			"player": "bf"
+		},
+		"ratings": {
+			"easy": 3,
+			"normal": 3,
+			"hard": 3
 		}
 	},
 	"songName": "Refamiliarize",
