@@ -1,0 +1,12 @@
+import funkin.save.Save;
+import funkin.play.song.Song;
+
+class Approaching extends Song {
+    public function new():Void {
+        super('approaching');
+    }
+
+    override function isSongNew(diff: String, variation: String):Void {
+        return !Save.instance.hasBeatenSong(this.id, 'hard');
+    }
+}

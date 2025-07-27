@@ -1,3 +1,4 @@
+import funkin.save.Save;
 import funkin.play.song.Song;
 import funkin.play.PlayStatePlaylist;
 import funkin.play.cutscene.CutsceneType;
@@ -21,5 +22,9 @@ class Refamiliarize extends Song {
         e.cancel();
         watchedCutscene = true;
         VideoCutscene.play(Paths.videos('refamiliarizeCutscene'), CutsceneType.STARTING);
+    }
+
+    override function isSongNew(diff: String, variation: String):Void {
+        return !Save.instance.hasBeatenSong(this.id, 'hard');
     }
 }
