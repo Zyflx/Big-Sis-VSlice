@@ -24,7 +24,6 @@ class Refamiliarize extends Song {
         watchedCutscene = true;
         // Play a downscaled version of the cutscene on mobile (720p)
         // My reasoning for this is idk how well a 1080p video would run on mobile, especially on a lower end device
-        trace('Is on mobile?: ' + FlxG.onMobile);
         VideoCutscene.play(Paths.videos(FlxG.onMobile ? 'refamiliarizeCutsceneMobile' : 'refamiliarizeCutscene'), CutsceneType.STARTING);
     }
 
