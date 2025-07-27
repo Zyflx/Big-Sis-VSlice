@@ -1,0 +1,16 @@
+import funkin.save.Save;
+import funkin.ui.story.Level;
+
+class BigSis extends Level {
+    public function new():Void {
+        super('bigsis');
+    }
+
+    override function getSongDisplayNames(diff: String):Array<String> {
+        return (
+            Save.instance.hasBeatenLevel('bigsis') ?
+            ['Refamiliarize', 'Approaching', 'Until']
+            : ['Refamiliarize', 'Approaching']
+        );
+    }
+}
