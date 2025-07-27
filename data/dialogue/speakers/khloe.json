@@ -1,0 +1,24 @@
+{
+    "version": "1.0.0",
+    "name": "Big Sis (Khloe)",
+    "assetPath": "Khloe_Portrait",
+    "isPixel": false,
+    "scale": 1.0,
+    "offsets": [
+        430,
+        30
+    ],
+    "animations": [
+        {
+            "name": "enter",
+            "prefix": "bigSisPortrait instance 1",
+            "frameRate": 24
+        },
+        {
+            "name": "talk",
+            "prefix": "bigSisPortrait instance 1",
+            "frameIndices": [3],
+            "frameRate": 0
+        }
+    ]
+}

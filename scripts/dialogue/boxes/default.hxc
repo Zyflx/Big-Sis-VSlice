@@ -1,0 +1,19 @@
+import funkin.audio.FunkinSound;
+import funkin.play.cutscene.dialogue.DialogueBox;
+
+class DefaultDialogueBox extends DialogueBox {
+    public function new():Void {
+        super('default');
+    }
+
+    override function onCreate(e):Void {
+        super.onCreate(e);
+        // reload dialogue typing sound cuz we're not in week 6
+        this.textDisplay.sounds = [FunkinSound.load(Paths.sound('pixelText', 'week6'), 0.6)];
+    }
+
+    override function onDialogueLine(e):Void {
+        super.onDialogueLine(e);
+        FunkinSound.playOnce(Paths.sound('textboxClick', 'week6'), 0.6);
+    }
+}

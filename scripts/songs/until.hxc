@@ -1,9 +1,26 @@
 import funkin.save.Save;
 import funkin.play.song.Song;
+import funkin.play.PlayState;
+import funkin.play.PlayStatePlaylist;
 
 class Until extends Song {
     public function new():Void {
         super('until');
+    }
+
+    override function onCreate(e):Void {
+        super.onCreate(e);
+        readDialogue = false;
+    }
+
+    override function onCountdownStart(e):Void {
+        super.onCountdownStart(e);
+
+        if(readDialogue || !PlayStatePlaylist.isStoryMode) return;
+        readDialogue = true;
+
+        e.cancel();
+        PlayState.instance.startConversation('until');
     }
 
     override function isSongNew(diff: String, variation: String):Void {

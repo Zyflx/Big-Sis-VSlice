@@ -1,0 +1,73 @@
+{
+    "version": "1.0.0",
+    "backdrop": {
+        "type": "solid",
+        "fadeTime": 1.0,
+        "color": "#99B3DFD8"
+    },
+    "music": {
+        "asset": "BigSisDialogue",
+        "fadeTime": 1.0,
+        "looped": true
+    },
+    "outro": {
+        "type": "fade",
+        "fadeTime": 1.0
+    },
+    "dialogue": [
+        {
+            "speaker": "khloe",
+            "speakerAnimation": "enter",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "That was a lot of fun little bro! You've gotten much better at this!"
+            ]
+        },
+        {
+            "speaker": "khloe",
+            "speakerAnimation": "talk",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "Last time I heard you sing was in your High School talent show! It was-"
+            ]
+        },
+        {
+            "speaker": "bf",
+            "speakerAnimation": "enter",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "Bap!"
+            ]
+        },
+        {
+            "speaker": "khloe",
+            "speakerAnimation": "enter",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "Alright fine I wont talk about it haha."
+            ]
+        },
+        {
+            "speaker": "khloe",
+            "speakerAnimation": "talk",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "How about we go for another round?"
+            ]
+        },
+        {
+            "speaker": "bf",
+            "speakerAnimation": "enter",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "Beep!"
+            ]
+        }
+    ]
+}

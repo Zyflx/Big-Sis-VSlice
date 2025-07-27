@@ -1,0 +1,91 @@
+{
+    "version": "1.0.0",
+    "backdrop": {
+        "type": "solid",
+        "fadeTime": 1.0,
+        "color": "#99B3DFD8"
+    },
+    "music": {
+        "asset": "BigSisDialogue",
+        "fadeTime": 1.0,
+        "looped": true
+    },
+    "outro": {
+        "type": "fade",
+        "fadeTime": 1.0
+    },
+    "dialogue": [
+        {
+            "speaker": "bf",
+            "speakerAnimation": "enter",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "Beep bap!"
+            ]
+        },
+        {
+            "speaker": "khloe",
+            "speakerAnimation": "enter",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "Fine little bro, you win! You've definitely improved!"
+            ]
+        },
+        {
+            "speaker": "khloe",
+            "speakerAnimation": "talk",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "It's getting pretty late huh?"
+            ]
+        },
+        {
+            "speaker": "khloe",
+            "speakerAnimation": "talk",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "How about we go one more time?"
+            ]
+        },
+        {
+            "speaker": "khloe",
+            "speakerAnimation": "talk",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "After all, I don't know when I'll see you again since you're always so busy..."
+            ]
+        },
+        {
+            "speaker": "bf",
+            "speakerAnimation": "enter",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "..."
+            ]
+        },
+        {
+            "speaker": "bf",
+            "speakerAnimation": "talk",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "Beep bap boop!"
+            ]
+        },
+        {
+            "speaker": "khloe",
+            "speakerAnimation": "enter",
+            "box": "default",
+            "boxAnimation": "idle",
+            "text": [
+                "Alright! Let's do this!"
+            ]
+        }
+    ]
+}
