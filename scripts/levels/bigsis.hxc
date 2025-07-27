@@ -7,10 +7,9 @@ class BigSis extends Level {
     }
 
     override function getSongDisplayNames(diff: String):Array<String> {
-        return (
-            Save.instance.hasBeatenLevel('bigsis') ?
-            ['Refamiliarize', 'Approaching', 'Until']
-            : ['Refamiliarize', 'Approaching']
-        );
+        var songList: Array<String> = ['Refamiliarize', 'Approaching', 'Until'];
+        if(Save.instance.getLevelScore('bigsis', diff) == null)
+            songList.remove('Until');
+        return songList;
     }
 }
