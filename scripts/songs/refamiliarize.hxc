@@ -1,3 +1,4 @@
+import flixel.FlxG;
 import funkin.save.Save;
 import funkin.play.song.Song;
 import funkin.play.PlayStatePlaylist;
@@ -21,7 +22,10 @@ class Refamiliarize extends Song {
         if(watchedCutscene || !PlayStatePlaylist.isStoryMode) return;
         e.cancel();
         watchedCutscene = true;
-        VideoCutscene.play(Paths.videos('refamiliarizeCutscene'), CutsceneType.STARTING);
+        // Play a downscaled version of the cutscene on mobile (720p)
+        // My reasoning for this is idk how well a 1080p video would run on mobile, especially on a lower end device
+        trace('Is on mobile?: ' + FlxG.onMobile);
+        VideoCutscene.play(Paths.videos(FlxG.onMobile ? 'refamiliarizeCutsceneMobile' : 'refamiliarizeCutscene'), CutsceneType.STARTING);
     }
 
     override function isSongNew(diff: String, variation: String):Void {
